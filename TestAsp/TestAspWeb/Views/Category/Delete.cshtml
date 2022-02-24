@@ -1,0 +1,26 @@
+﻿@model Category
+
+<form method="post" asp-action="Delete">
+	<div class="border p-3 mt-4">
+		<div class = "row bp-2">
+		<h2 class ="text-primary"> Удалить категорию</h2>
+		<hr />
+		</div>
+		<div class="mb-3">
+			<input asp-for="Name" class = "form-control" readonly/>
+		<div>
+		<div class="mb-3">
+			<input asp-for="DisplayOrder" class = "form-control" readonly/>
+		</div>
+		<button type ="submit" class="btn btn-danger" style="width:150px">Удалить</button>
+		<a asp-controller="Category" asp-action="Index" class="btn btn-primary" style="width:150px">
+			Обратно к списку
+		</a>
+	</div>
+</form>
+@section Scripts{
+	@{
+	<partical name ="_ValidationScriptsPartial" />
+	}
+}
+

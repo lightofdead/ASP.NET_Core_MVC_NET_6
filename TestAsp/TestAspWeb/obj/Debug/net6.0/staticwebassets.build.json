@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T/ZB4s5tTt0BmUXL3w7IqURT0Fnsnfcfo2nqgRw35TM=",
+  "Hash": "HZ8AqEGQ39hqFByI0rMylkvJIO5ERENnJX/XmLMCGw0=",
   "Source": "TestAspWeb",
   "BasePath": "_content/TestAspWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Learning\\ASP.NET Core MVC(.NET6)\\TestAsp\\TestAspWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TestAspWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Learning\\ASP.NET Core MVC(.NET6)\\TestAsp\\TestAspWeb\\wwwroot\\css\\bootstrapTheme.css",
+      "SourceId": "TestAspWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning\\ASP.NET Core MVC(.NET6)\\TestAsp\\TestAspWeb\\wwwroot\\",
+      "BasePath": "_content/TestAspWeb",
+      "RelativePath": "css/bootstrapTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrapTheme.css"
     },
     {
       "Identity": "D:\\Learning\\ASP.NET Core MVC(.NET6)\\TestAsp\\TestAspWeb\\wwwroot\\css\\site.css",
